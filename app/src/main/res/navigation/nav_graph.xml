@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFormFragment">
+
+    <fragment
+        android:id="@+id/mainFormFragment"
+        android:name="org.js.denisvieira.teste.application.modules.selectservice.SelectServiceFragment"
+        android:label="MainFormFragment"
+        tools:layout="@layout/mainform_fragment"/>
+</navigation>

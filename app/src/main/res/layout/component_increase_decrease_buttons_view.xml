@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="handler"
+            type="org.js.denisvieira.teste.application.components.increasedecreasebuttonsview.IncreaseDecreaseButtonsViewContract" />
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/increase_decrease_buttons_view_container_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/increase_decrease_buttons_view_less_button_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="@{handler::onPressDecreaseButton}"
+            android:text="-"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/increase_decrease_buttons_view_more_button_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="@{handler::onPressIncreaseButton}"
+            android:text="+"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</layout>
