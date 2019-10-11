@@ -9,5 +9,5 @@
         android:id="@+id/mainFormFragment"
         android:name="org.js.denisvieira.teste.application.modules.selectservice.SelectServiceFragment"
         android:label="MainFormFragment"
-        tools:layout="@layout/mainform_fragment"/>
+        tools:layout="@layout/select_service_fragment"/>
 </navigation>

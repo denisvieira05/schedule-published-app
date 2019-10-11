@@ -35,7 +35,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/mainform_title_text_view" />
 
-
         <RadioGroup
             android:id="@+id/add_absence_dialog_alternatives_radio_group"
             android:layout_width="match_parent"

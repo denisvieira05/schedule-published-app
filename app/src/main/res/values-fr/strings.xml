@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Teste</string>
+    <string name="common_ok">Ok</string>
+    <string name="common_select_time_hint">Sélectionnez l\'heure</string>
+    <string name="common_select_day_hint">Sélectionnez le jour</string>
+    <string name="common_send">Envoyer</string>
+    <string name="common_duration_default">15min</string>
+    <string name="common_mr">Mr.</string>
+    <string name="common_mme">Mme.</string>
+    <string name="common_from">De</string>
+    <string name="common_at">à</string>
+    <string name="main_form_add_availability">Ajouter la disponibilité</string>
+    <string name="main_form_day_field">Journée</string>
+    <string name="main_form_hour_field">Heure</string>
+    <string name="main_form_duration_field">Durée</string>
+    <string name="main_form_add_appointment">Ajouter un rendez-vous</string>
+    <string name="main_form_absence">Absence</string>
+    <string name="add_availability_dialog_send">Envoyer</string>
+    <string name="add_availability_dialog_submit_success">Disponibilité ajoutée avec succès</string>
+    <string name="add_availability_dialog_duration_is_zero">La durée ne peut être inférieure à 15 minutes</string>
+    <string name="add_appointment_dialog_patient_field_name">Patient</string>
+    <string name="add_appointment_dialog_type_patient_name_hint">Entrez le nom du patient</string>
+    <string name="add_appointment_dialog_submit_success">Rendez-vous ajouté avec succès</string>
+    <string name="add_absence_dialog_from_now_on_alternative">À partir de maintenant</string>
+    <string name="add_absence_dialog_to_define_alternative">Définir</string>
+    <string name="add_absence_dialog_submit_success">Absence enregistrée avec succès</string>
+    <string name="select_service_main_title">What do you want to do ?</string>
+</resources>

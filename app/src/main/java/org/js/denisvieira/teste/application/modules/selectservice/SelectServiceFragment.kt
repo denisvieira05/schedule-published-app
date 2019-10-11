@@ -9,10 +9,8 @@ import androidx.databinding.DataBindingUtil
 import com.google.android.material.snackbar.Snackbar
 import org.js.denisvieira.teste.R
 import org.js.denisvieira.teste.application.components.addabsencedialog.AddAbsenceDialog
-import org.js.denisvieira.teste.application.components.addabsencedialog.AddAbsenceViewContract
 import org.js.denisvieira.teste.application.components.addabsencedialog.AddAbsenceViewContract.OnSubmitAddAbsenceForm
 import org.js.denisvieira.teste.application.components.addappointmentdialog.AddAppointmentDialog
-import org.js.denisvieira.teste.application.components.addappointmentdialog.AddAppointmentViewContract
 import org.js.denisvieira.teste.application.components.addappointmentdialog.AddAppointmentViewContract.OnSubmitAddAppointmentForm
 import org.js.denisvieira.teste.application.components.addavailabilitydialog.AddAvailabilityDialog
 import org.js.denisvieira.teste.application.components.addavailabilitydialog.AddAvailabilityViewContract.OnSubmitAddAvailabilityForm
@@ -27,7 +25,7 @@ class SelectServiceFragment : FragmentBase(), SelectServiceContract.View {
     private lateinit var mAddAppointmentDialog: AddAppointmentDialog
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
-        mBinding = DataBindingUtil.inflate(inflater, R.layout.mainform_fragment, container, false)
+        mBinding = DataBindingUtil.inflate(inflater, R.layout.select_service_fragment, container, false)
 
         return mBinding.root
     }
@@ -64,6 +62,7 @@ class SelectServiceFragment : FragmentBase(), SelectServiceContract.View {
                     mAddAppointmentDialog = AddAppointmentDialog(it)
                 }
             })
+
             mAddAbsenceDialog = AddAbsenceDialog(it)
             mAddAbsenceDialog.setOnSubmitForm(object : OnSubmitAddAbsenceForm {
                 override fun onSubmit() {
@@ -71,7 +70,7 @@ class SelectServiceFragment : FragmentBase(), SelectServiceContract.View {
                     snackbar.view.setBackgroundColor(ContextCompat.getColor(context!!,R.color.colorPrimary))
                     snackbar.show()
 
-                    mAddAppointmentDialog = AddAppointmentDialog(it)
+                    mAddAbsenceDialog = AddAbsenceDialog(it)
                 }
             })
         }

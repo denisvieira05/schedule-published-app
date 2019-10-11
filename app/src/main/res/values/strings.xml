@@ -1,27 +1,30 @@
 <resources>
+
     <string name="app_name">Teste</string>
-    <string name="main_form_add_availability">Add Availability</string>
+    <string name="common_select_time_hint">Select time</string>
     <string name="common_ok">Ok</string>
+    <string name="common_select_day_hint">Select day</string>
+    <string name="common_send">Send</string>
+    <string name="common_duration_default">15min</string>
+    <string name="common_mr">Mr.</string>
+    <string name="common_mme">Mme.</string>
+    <string name="common_from">From</string>
+    <string name="common_at">at</string>
+    <string name="main_form_add_availability">Add Availability</string>
     <string name="main_form_day_field">Day</string>
     <string name="main_form_hour_field">Hour</string>
     <string name="main_form_duration_field">Duration</string>
     <string name="main_form_add_appointment">Add Appointment</string>
     <string name="main_form_absence">Absence</string>
     <string name="add_availability_dialog_send">Send</string>
-    <string name="common_select_time_hint">Select time</string>
-    <string name="common_select_day_hint">Select day</string>
     <string name="add_availability_dialog_submit_success">Availability successfully added</string>
     <string name="add_availability_dialog_duration_is_zero">Duration cannot be less than 15 minutes</string>
-    <string name="common_send">Send</string>
-    <string name="common_duration_default">15min</string>
     <string name="add_appointment_dialog_patient_field_name">Patient</string>
     <string name="add_appointment_dialog_type_patient_name_hint">Enter patient name</string>
-    <string name="common_mr">Mr.</string>
-    <string name="common_mme">Mme.</string>
     <string name="add_appointment_dialog_submit_success">Successfully added appointment</string>
     <string name="add_absence_dialog_from_now_on_alternative">From now on</string>
     <string name="add_absence_dialog_to_define_alternative">To define</string>
-    <string name="common_from">From</string>
-    <string name="common_at">at</string>
     <string name="add_absence_dialog_submit_success">Successfully registered absence</string>
+    <string name="select_service_main_title">What do you want to do ?</string>
+
 </resources>
